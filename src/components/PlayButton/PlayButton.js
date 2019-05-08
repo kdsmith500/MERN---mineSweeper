@@ -3,7 +3,7 @@ import './PlayButton.css';
 
 const PlayButton = (props) => (
     <div className="PlayButton">
-        PlayButton
+        <button>Play!</button>
     </div>
 );
 

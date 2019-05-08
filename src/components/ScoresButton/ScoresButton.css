@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
-.PlayButton > button {
+.ScoresButton > button {
     font-family: 'Orbitron', sans-serif;
     border-radius: 10px;
     border: ridge 10px green;
@@ -10,6 +10,6 @@
     position: relative;
 }
 
-.PlayButton:hover > button {
+.ScoresButton:hover > button {
     background-color: green;
 }

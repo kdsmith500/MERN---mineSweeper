@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+.BoardParameters {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.BoardParameters-parameters {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.BoardParameters-parameter > input {
+    font-size: 1rem;
+    width: 3rem;
+    margin: 0 10px 0 0;
+    background-color: black;
+    border: solid 5px green;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Orbitron', sans-serif;
+    color: #00C200;
+}
+
+.BoardParameters-parameter > input:hover {
+    background-color: green;
+    color: black;
+}
+
+.BoardParameters-dropdown {
+    width: 8rem;
+    z-index: 2;
+}
+
+.BoardParameters-dropdown:hover > .BoardParameters-button {
+    display: none;
+    background-color: #3e8e41;
+}
+
+.BoardParameters-dropdown:hover > .BoardParameters-options {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: green;
+    border-radius: .5rem;
+    padding: .5rem;
+    z-index: 2;
+    position: absolute;
+    width: 7rem;
+}
+
+.BoardParameters-button {
+    font-family: 'Orbitron', sans-serif;
+    border: solid 5px green;
+    background-color: olive;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 1rem;
+    width: 8rem;
+    padding-top: .2rem;
+    position: absolute;
+}
+
+.BoardParameters-button:hover {
+    display: none;
+    z-index: 2;
+}
+
+.BoardParameters-options {
+    font-family: 'Orbitron', sans-serif;
+    display: none;
+    z-index: 2;
+}
+
+.BoardParameters-options > div:hover {
+    background-color: olive;
+    width: 100%;
+    text-align: center;
+}
