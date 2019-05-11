@@ -23,7 +23,9 @@ const MainPage = (props) => (
         />
         <div className="MainPage-buttons">
             <ScoresButton />
-            <PlayButton />
+            <PlayButton
+                handleCreateBoard={props.handleCreateBoard}
+            />
         </div>
     </div>
 );

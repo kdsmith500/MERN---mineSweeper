@@ -1,0 +1,7 @@
+.Board {
+    display: flex;
+    flex-flow: wrap;
+    border: outset 2px green;
+    background-color: olive;
+    margin: 5% auto 0 auto;
+}

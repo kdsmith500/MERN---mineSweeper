@@ -1,0 +1,10 @@
+.BoardCell {
+    border: inset 2px green;
+    width: 30px;
+    height: 30px;
+}
+
+.BoardCell > img {
+    width: 30px;
+    height: 30px;
+}
