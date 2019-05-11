@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
-.PlayButton > button {
+.PlayButton-button {
     font-family: 'Orbitron', sans-serif;
     border-radius: 10px;
     border: ridge 10px green;
@@ -8,8 +8,9 @@
     padding-top: .2rem;
     font-size: 1rem;
     position: relative;
+    width: 6rem;
 }
 
-.PlayButton:hover > button {
+.PlayButton-button:hover {
     background-color: green;
 }

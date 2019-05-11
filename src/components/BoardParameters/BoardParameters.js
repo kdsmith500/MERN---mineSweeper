@@ -17,7 +17,6 @@ const BoardParameters = (props) => (
                 {/* <div onClick={props.handleCustom}>Custom</div> */}
             </div>
         </div>
-        <br></br>
     </div>
 );
 

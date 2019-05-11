@@ -7,7 +7,7 @@ import PlayButton from '../../components/PlayButton/PlayButton';
 
 const MainPage = (props) => (
     <div className="MainPage">
-        <TitleBanner />
+        <TitleBanner className="MainPage-TitleBanner" />
         <BoardParameters
           w={props.w}
         //   customW={props.customW}

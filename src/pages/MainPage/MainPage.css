@@ -1,4 +1,19 @@
+.MainPage {
+    background-color: olive;
+    border: ridge 10px green;
+    border-radius: 15px;
+    width: 60%;
+    margin: 5% auto 0 auto;
+    padding: 10px;
+}
+
 .MainPage-buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 20px auto 0 auto;
+    width: 40%;
+}
+
+.MainPage-TitleBanner {
+    margin-bottom: 10px; 
 }
